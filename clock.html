@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="timezone">MOSCOW</div>
+    <div class="clock">
+        <div class="clock-h"></div>
+        <div class="clock-m"></div>
+        <div class="clock-s"></div>
+        <div class="clock-nail"></div>
+        <div class="date-container">
+            <div class="day">Mon</div>
+            <div class="separator"></div>
+            <div class="date">1</div>     
+            <div class="separator"></div>
+            <div class="month">Jan</div>
+        </div>
+    </div>
+
+    <div class="digital-watch">
+        <div class="digital-h"></div>
+        <div class="separator-dots">:</div>
+        <div class="digital-m"></div>
+        <div class="separator-dots">:</div>
+        <div class="digital-s"></div>
+    </div>
+
+    <div class="btn-container">
+        <div class="btn btn-dark">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun icon-size icon-invisible"></i>
+        </div>
+        <div class="btn msk btn-dark">MSK</div>
+        <div class="btn uk btn-dark">LON</div>
+        <div class="btn ny btn-dark">NY</div>
+    </div>
+
+    <script src="node_modules/moment/min/moment.min.js"></script>
+    <script src="clock.js"></script>
+
+
+</body>
+</html>
